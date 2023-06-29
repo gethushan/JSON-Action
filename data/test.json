@@ -22,12 +22,12 @@
         {
             "icon": "FaInstagram",
             "url": "https://www.instagram.com/ravichandran_gethushan/"
-        }
+        },
         {
             "icon": "FaLinkedin",
             "url": "https://www.linkedin.com/in/r-gethushan"
         }
-    ]
+    ],
     "links": [
         {
             "group": "Portfolio",
