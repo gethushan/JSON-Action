@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: adding json files
-        run: cat *.json > data.json
+        run: cat **.json > data.json
