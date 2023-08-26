@@ -1,0 +1,17 @@
+name: Merge All JSON Files on PR Merge
+
+on:
+  pull_request:
+    types:
+      - closed
+
+jobs:
+  merge_json:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Merge JSON Files
+      run: python .github/scripts/merge_all_json.py
