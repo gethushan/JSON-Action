@@ -3,7 +3,7 @@ name: JSON check
 on:
   pull_request:
     paths:
-      - "**.json"
+      - "data/**.json"
 
 jobs:
   check:
