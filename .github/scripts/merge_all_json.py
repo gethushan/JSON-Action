@@ -15,4 +15,4 @@ def merge_all_json_files(directory, output_path):
         json.dump(merged_data, output_file, indent=4)
 
 if __name__ == "__main__":
-    merge_all_json_files("./data", "finish/merged.json")
+    merge_all_json_files("./data", "./finish/merged.json")
