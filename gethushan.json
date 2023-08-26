@@ -144,6 +144,14 @@
             "icon": "FaUserTie",
             "color": "black",
             "description": "I want to become a Network Engineer for large enterprise company."
+        },
+        {
+            "isGoal": true,
+            "title": "Become a Network Engineer",
+            "date": "2023",
+            "icon": "FaUserTie",
+            "color": "black",
+            "description": "I want to become a Network Engineer for large enterprise company."
         }
     ]
 }
