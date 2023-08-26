@@ -2,12 +2,9 @@ name: add json
 
 on:
   pull_request:
-    paths:
-      - "**.json"
-
 jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
       - name: adding json files
-        run: cat **.json > data.json
+        run: cat "**.json" > data.json
