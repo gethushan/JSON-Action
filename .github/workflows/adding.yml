@@ -2,10 +2,9 @@ name: add json
 
 on:
   pull_request:
-    types: 
-      - closed
+    types: [closed]
     paths:
-      - "./data/**.json"
+      - "**.json"
 
 jobs:
   my-job:
